@@ -11,9 +11,9 @@ public class RibbonService {
     @Autowired
     RestTemplate restTemplate;
 
-    public String hi(String name){
-        ResponseEntity responseEntity = restTemplate.getForEntity("http://eureka-cilent/hi?name=" + name, String.class);
-        return responseEntity.getBody().toString();
+    public ResponseEntity<String> hi(String name){
+        ResponseEntity responseEntity = restTemplate.getForEntity("http://eureka-client/hi?name=" + name, String.class);
+        return responseEntity;
 
 //        return restTemplate.getForObject("http://eureka-client/hi?name="+name,String.class);
     }

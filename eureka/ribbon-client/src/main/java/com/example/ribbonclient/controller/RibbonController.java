@@ -2,6 +2,7 @@ package com.example.ribbonclient.controller;
 
 import com.example.ribbonclient.service.RibbonService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,7 +14,7 @@ public class RibbonController {
     RibbonService ribbonService;
 
     @GetMapping("/hi")
-    public String hi(@RequestParam(value = "name", required = false, defaultValue = "hezhan") String name){
+    public ResponseEntity<String> hi(@RequestParam(value = "name", required = false, defaultValue = "hezhan") String name){
         return ribbonService.hi(name);
     }
 }
