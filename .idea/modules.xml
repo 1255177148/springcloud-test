@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka/client/client.iml" filepath="$PROJECT_DIR$/eureka/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka-feign-client/eureka-feign-client.iml" filepath="$PROJECT_DIR$/eureka/eureka-feign-client/eureka-feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka-ribbon-client/eureka-ribbon-client.iml" filepath="$PROJECT_DIR$/eureka/eureka-ribbon-client/eureka-ribbon-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/ribbon-client/ribbon-client.iml" filepath="$PROJECT_DIR$/eureka/ribbon-client/ribbon-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/server/server.iml" filepath="$PROJECT_DIR$/eureka/server/server.iml" />
+    </modules>
+  </component>
+</project>
